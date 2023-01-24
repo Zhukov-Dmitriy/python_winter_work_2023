@@ -5,9 +5,14 @@
 # Напечатайте таблицу умножения на число n.
 
 # Вводим число n
-n = int(input("Введите число: "))
-print("Результат:")
+#n = int(input("Введите число: "))
+#print("Результат:")
 
 # Выводим цикл и печатаем результат
-for i in range(1, 10):
-    print(f"{i} * {n} = {i * n}\n", end="")
+#for i in range(1, 10):
+#    print(f"{i} * {n} = {i * n}\n", end="")
+
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
